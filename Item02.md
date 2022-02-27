@@ -174,7 +174,7 @@ public class NutritionFacts {
 }
 
 ```
-- 이러한 빌더 패턴은 빌더의 생성자와 메서드에서 입력 매개변수의 유효성을 검사할 수 있다.
+- 이러한 빌더 패턴은 빌더의 생성자와 메서드에서 입력 매개변수의 유효성을 검사하여 검증에 실패할 경우 적절한 예외와 메시지로 어떤 매개변수가 잘못되었는지 알려줄 수 있다.
 - 또한 빌더 패턴은 계층적으로 설계된 클래스와 함께 쓰기에 좋다.
   - 추상 클래스는 추상 빌더를 가지고 있고, 구체 클래스와 구체 빌더는 각각 추상 클래스와 추상 빌더를 상속 받아 만들 수 있다.
   - 이에 대한 예제 코드는 아래와 같다.
@@ -187,7 +187,7 @@ public abstract class Pizza {
 
   final Set<Topping> toppings;
 
-  abstract static class Builder<T extends  Builder<T>> {  // `재귀적인 타입 매개변수`
+  abstract static class Builder<T extends  Builder<T>> {  // 재귀적인 타입 매개변수
       EnumSet<Topping> toppings = EnumSet.noneOf(Topping.class);
 
       public T addTopping(Topping topping) {
@@ -292,3 +292,4 @@ public static void main(String[] args) {
 ## 정리
 - 빌더는 점층적 생성자 패턴보다 클라이언트 코드를 읽고 쓰기가 훨씬 간결하고, 자바빈즈 패턴보다 훨씬 안전하다.
 - 생성자나 정적 팩터리가 처리해야 할 매개변수가 많다면 빌더 패턴을 선택하는 것이 더 낫다.
+- 하지만 성능에 민감한 상황이라면 빌더 생성 비용을 고려해볼 필요가 있다.
