@@ -17,3 +17,5 @@ Effective Java 3/E Summary
 - [Item10. equals는 일반 규약을 지켜 재정의하라](https://github.com/kykapple/Effective-Java/blob/main/Item10.md)
 - [Item11. equals를 재정의하려거든 hashCode도 재정의하라](https://github.com/kykapple/Effective-Java/blob/main/Item11.md)
 - [Item12. toString을 항상 재정의하라](https://github.com/kykapple/Effective-Java/blob/main/Item12.md)
+- [Item13. clone 재정의는 주의해서 진행하라](https://github.com/kykapple/Effective-Java/blob/main/Item13.md)
+- [Item14. Comparable을 구현할지 고려하라](https://github.com/kykapple/Effective-Java/blob/main/Item14.md)

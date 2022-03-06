@@ -50,6 +50,7 @@ public final class CaseInsensitiveString implements Comparable<CaseInsensitiveSt
 위 코드에서 `CaseInsensitiveString`이 `Compare<CaseInsensitiveString>`을 구현한 것을 주목하자.
 
 `CaseInsensitiveString`의 참조는 `CaseInsensitiveString` 참조와만 비교할 수 있다는 뜻으로, `Comparable`을 구현할 때 일반적으로 따르는 패턴이다.
+
 <br>
 
 ### 핵심 필드의 비교 순서 지정
