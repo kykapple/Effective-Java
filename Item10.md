@@ -180,6 +180,7 @@ public boolean equals(Object o) {
     - Primitive type은 `==`연산자로 비교하고, Reference type은 `equals` 메서드로 비교한다.
  
 **`equals`를 다 구현했다면 세 가지만 자문해보자. 대칭적인가? 추이성이 있는가? 일관적인가?**
+
 <br>
 
 ## 전형적인 `equals` 메서드의 예
@@ -193,7 +194,7 @@ public boolean equals(Object o) {
   if (!(o instanceof PhoneNumber)) {
     return false;
   }
-  PhoneNumber pn = new (PhoneNumber) o;
+  PhoneNumber pn = (PhoneNumber) o;
   return pn.lineNum == lineNum && pn.prefix == prefix;
 }
 ```
