@@ -22,9 +22,19 @@ Effective Java 3/E Summary
 
 
 ## 4장 클래스와 인터페이스
-- [Item15. 클래스와 멤버의 접근 권한을 최소화하라](https://github.com/kykapple/Effective-Java/blob/main/Item15.md)
+- [Item 15. 클래스와 멤버의 접근 권한을 최소화하라](https://github.com/kykapple/Effective-Java/blob/main/Item15.md)
 - [Item 16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라](https://github.com/kykapple/Effective-Java/blob/main/Item16.md)
 - [Item 17. 변경 가능성을 최소화하라](https://github.com/kykapple/Effective-Java/blob/main/Item17.md)
 - [Item 18. 상속보다는 컴포지션을 사용하라](https://github.com/kykapple/Effective-Java/blob/main/Item18.md)
 - [Item 21. 인터페이스는 구현하는 쪽을 생각해 설계하라](https://github.com/kykapple/Effective-Java/blob/main/Item21.md)
 - [Item 22. 인터페이스는 타입을 정의하는 용도로만 사용하라](https://github.com/kykapple/Effective-Java/blob/main/Item22.md)
+
+
+## 5장 제네릭
+- [Item27. 비검사 경고를 제거하라](https://github.com/kykapple/Effective-Java/blob/main/Item27.md)
+- [Item28. 배열보다는 리스트를 사용하라](https://github.com/kykapple/Effective-Java/blob/main/Item28.md)
+- [Item30. 이왕이면 제네릭 메서드로 만들라](https://github.com/kykapple/Effective-Java/blob/main/Item30.md)
+
+
+## 6장 열거 타입과 애너테이션
+[Item34. int 상수 대신 열거 타입을 사용하라](https://github.com/kykapple/Effective-Java/blob/main/Item34.md)

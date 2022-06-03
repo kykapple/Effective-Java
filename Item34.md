@@ -158,7 +158,7 @@ enum PayrollDay {
 - **이를 해결할 수 있는 방법은 새로운 상수를 추가했을 때 잔업수당 `전략`을 선택하도록 하는 것이다.**
 ```java
 enum PayrollDay {
-    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
+    MONDAY(WEEKDAY), TUESDAY(WEEKDAY), WEDNESDAY(WEEKDAY), THURSDAY(WEEKDAY), FRIDAY(WEEKDAY), SATURDAY(WEEKEND), SUNDAY(WEEKEND);
   
     private final PayType payType;
   
