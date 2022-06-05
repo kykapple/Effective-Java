@@ -37,4 +37,4 @@ Effective Java 3/E Summary
 
 
 ## 6장 열거 타입과 애너테이션
-[Item34. int 상수 대신 열거 타입을 사용하라](https://github.com/kykapple/Effective-Java/blob/main/Item34.md)
+- [Item34. int 상수 대신 열거 타입을 사용하라](https://github.com/kykapple/Effective-Java/blob/main/Item34.md)
